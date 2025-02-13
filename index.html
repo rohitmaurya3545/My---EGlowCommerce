@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowCommerce - Let Your Skin Shine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        FREE SHIPPING ON ALL INDIA ORDERS ₹1500
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="search-bar">
+                <input type="text" placeholder="Search product">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="logo">
+                <h1>GLOWCOMMERCE</h1>
+            </div>
+            <div class="header-actions">
+                <a href="#" class="account-link">
+                    <i class="fas fa-user"></i>
+                </a>
+                <a href="#" class="wishlist-link">
+                    <i class="fas fa-heart"></i>
+                    <span class="badge">0</span>
+                </a>
+                <a href="#" class="cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge">0</span>
+                </a>
+                <span class="cart-total">₹0.00</span>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#offer">Offer</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Let Your<br>Skin Shine</h2>
+            <p>Made using clean, non-toxic ingredients, our products are designed for everyone.</p>
+            <div class="price">Starting at ₹594</div>
+            <button class="shop-now">Shop Now</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Skincare Products">
+        </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="collections" id="collection">
+        <div class="collection-grid">
+            <div class="collection-card">
+                <h3>Summer Collection</h3>
+                <p>Starting at ₹1065</p>
+                <a href="#" class="shop-link">Shop Now →</a>
+            </div>
+            <div class="collection-card">
+                <h3>What's New?</h3>
+                <p>Get the glow</p>
+                <a href="#" class="shop-link">Discover Now →</a>
+            </div>
+            <div class="collection-card">
+                <h3>Buy 1 Get 1</h3>
+                <p>Starting at ₹665</p>
+                <a href="#" class="shop-link">Discover Now →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="bestsellers">
+        <div class="section-header">
+            <h2>Our Bestsellers</h2>
+            <a href="#" class="view-all">Shop All Products →</a>
+        </div>
+        <div class="product-grid">
+            <!-- Product cards will be dynamically added here -->
+        </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section id="offer" class="special-offer">
+        <div class="offer-content">
+            <span class="offer-badge">SPECIAL OFFER</span>
+            <h2>20% OFF</h2>
+            <p>On all products this week</p>
+            <button class="shop-now">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="section-header">
+            <h2>Latest Blog Posts</h2>
+            <a href="#" class="view-all">View All Posts →</a>
+        </div>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <h3>Skincare Tips for Summer</h3>
+                <p>Learn how to protect your skin during hot summer days...</p>
+                <a href="#" class="read-more">Read More →</a>
+            </article>
+            <article class="blog-card">
+                <h3>Natural Ingredients Guide</h3>
+                <p>Discover the power of natural skincare ingredients...</p>
+                <a href="#" class="read-more">Read More →</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Company</h3>
+                <p>Find a location nearest you.</p>
+                <a href="#" class="shop-link">See Our Stores →</a>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        7890xxxx39
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        glowcommerce@gmail.com
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Useful Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">New Products</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Online Gift Card</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Information</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Start a Return</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping FAQ</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Enter your email below.</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <input 
+                        type="email" 
+                        id="newsletter-email"
+                        placeholder="Enter your email address"
+                        required
+                    >
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Rohit Kumar Maurya</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
