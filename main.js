@@ -18,7 +18,7 @@ const products = [
         rating: 5,
         reviews: 5170,
         discount: 20,
-        image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be'
+        image: 'https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=800&q=80'
     },
     {
         id: 3,
@@ -38,7 +38,7 @@ const products = [
         rating: 5,
         reviews: 3890,
         discount: 25,
-        image: 'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd'
+        image: 'https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=800&q=80'
     },
     {
         id: 5,
@@ -48,7 +48,7 @@ const products = [
         rating: 5,
         reviews: 4150,
         discount: 15,
-        image: 'https://images.unsplash.com/photo-1617897903246-719242758050'
+        image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=80'
     },
     {
         id: 6,
@@ -68,7 +68,7 @@ const products = [
         rating: 5,
         reviews: 4890,
         discount: 20,
-        image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be'
+        image: 'https://images.unsplash.com/photo-1567721913486-6585f069b332?auto=format&fit=crop&w=800&q=80'
     },
     {
         id: 8,
@@ -78,7 +78,7 @@ const products = [
         rating: 4,
         reviews: 2980,
         discount: 25,
-        image: 'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd'
+        image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80'
     },
     {
         id: 9,
@@ -88,7 +88,7 @@ const products = [
         rating: 5,
         reviews: 5240,
         discount: 20,
-        image: 'https://images.unsplash.com/photo-1617897903246-719242758050'
+        image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
         id: 10,
@@ -98,7 +98,7 @@ const products = [
         rating: 5,
         reviews: 3760,
         discount: 20,
-        image: 'https://images.unsplash.com/photo-1617897903246-719242758050'
+        image: 'https://images.unsplash.com/photo-1626783416763-67a92e5e7266?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
         id: 11,
@@ -108,7 +108,7 @@ const products = [
         rating: 4,
         reviews: 2890,
         discount: 25,
-        image: 'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd'
+        image: 'https://images.unsplash.com/photo-1566958769312-82cef41d19ef?q=80&w=1778&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
         id: 12,
@@ -118,7 +118,7 @@ const products = [
         rating: 4,
         reviews: 3150,
         discount: 20,
-        image: 'https://images.unsplash.com/photo-1617897903246-719242758050'
+        image: 'https://images.unsplash.com/photo-1584949514123-474cfa705dfe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1617897903246-719242758050'
     },
     {
         id: 13,
@@ -128,7 +128,7 @@ const products = [
         rating: 5,
         reviews: 4120,
         discount: 20,
-        image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be'
+        image: 'https://images.unsplash.com/photo-1615396899839-c99c121888b0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
         id: 14,
@@ -138,7 +138,7 @@ const products = [
         rating: 4,
         reviews: 2760,
         discount: 22,
-        image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03'
+        image: 'https://images.unsplash.com/photo-1556227834-09f1de7a7d14?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
         id: 15,
@@ -148,8 +148,18 @@ const products = [
         rating: 5,
         reviews: 3980,
         discount: 17,
-        image: 'https://images.unsplash.com/photo-1617897903246-719242758050'
-    }
+        image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80'
+    },
+    {
+        id: 13,
+        name: 'Coconut Oil',
+        price: 799.00,
+        originalPrice: 999.00,
+        rating: 5,
+        reviews: 4120,
+        discount: 20,
+        image: 'https://images.unsplash.com/photo-1609175214983-594001465d18?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    },
 ];
 
 // Shopping cart and wishlist state
